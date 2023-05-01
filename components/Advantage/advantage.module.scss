@@ -1,0 +1,22 @@
+.advantage {
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+    
+    .advantageSquare {
+        border-radius: 30px;
+        padding: 30px;
+        background: hsl(225, 22%, 96%);
+        
+        .advantageName {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .advantageTitle {
+            padding: 0 10px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.rating {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 40px 30px;
+    gap: 20px;
+    
+    .ratingType{
+        height: 180px;
+        border-radius: 30px;
+        background: #F4F5F8;
+        padding: 40px 40px;
+        text-align: center;
+
+        .ratingName{
+            margin-bottom: 30px;
+        }
+    }
+}

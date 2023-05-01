@@ -1,26 +1,26 @@
 export const salesData = [
   {
     id: 1,
-    imgPath: "/public/trendyol.png",
+    imgPath: "/trendyol.png",
   },
   {
     id: 2,
-    imgPath: "/public/trendyol.png",
+    imgPath: "/avva-logo.png",
   },
   {
     id: 3,
-    imgPath: "/public/trendyol.png",
+    imgPath: "/H&M.png",
   },
   {
     id: 4,
-    imgPath: "/public/trendyol.png",
+    imgPath: "/defacto.png",
   },
   {
     id: 5,
-    imgPath: "/public/trendyol.png",
+    imgPath: "/lcwaikiki.png",
   },
   {
     id: 6,
-    imgPath: "/public/trendyol.png",
-  },
+    imgPath: "/koton.png",
+  }
 ];
