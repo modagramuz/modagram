@@ -1,11 +1,39 @@
+.h1 {
+    text-align: center;
+    margin: 40px 60px;
+}
+
 .services {
     display: grid;
     grid-template-columns: auto;
+    margin: 40px 40px;
 
-    .servicesDelivery{
+    .servicesDelivery {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        margin-block-end: 25px;
+        background: #FFFFFF;
+        border: 1px solid rgba(71, 93, 135, 0.1);
+        border-radius: 40px;
+
+        .servicesName {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 60px;
+
+            .inServicesName,
+            .inServicesP {
+                font-weight: 600;
+                font-size: 24px;
+            }
+            .inServicesTitle {
+                font-weight: 500;
+                font-size: 14px;
+            }
+            .inServicesP {
+                color: #21B430;
+            }
+        }
     }
-    
 }
