@@ -1,19 +1,29 @@
-.header{
+.header {
     position: absolute;
     margin: 26px 0;
     z-index: 2;
     width: 100%;
-  border-bottom: 1px solid rgba(71, 93, 135, 0.1);
+    border-bottom: 1px solid rgba(71, 93, 135, 0.1);
 
-    .wrapItems{
+    .wrapItems {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 13px;
-        .rightPart{
+
+        .rightPart, .login {
             display: flex;
             align-items: center;
             gap: 30px;
         }
+        
+            button {
+                display: flex;
+                padding: 13px 30px;
+                background: #B42126;
+                border-radius: 48px;
+                border: 1px;
+                color: white;
+            }
     }
 }

@@ -16,6 +16,10 @@ const Header = () => {
                 <div key={item.id}>{item.name}</div>
               ))}
             </div>
+            <div className={cls.login}>
+              <onclick> Войти </onclick>
+              <button> Регистрация </button>
+            </div>
           </div>
         </div>
       </div>
