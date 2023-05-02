@@ -1,39 +1,42 @@
 .h1 {
     text-align: center;
-    margin: 40px 60px;
 }
-
 .services {
-    display: grid;
-    grid-template-columns: auto;
     margin: 40px 40px;
-
     .servicesDelivery {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: row;
         margin-block-end: 25px;
         background: #FFFFFF;
         border: 1px solid rgba(71, 93, 135, 0.1);
         border-radius: 40px;
-
         .servicesName {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            margin: 60px;
-
+            justify-content: space-around;
+            margin: 60px 40px;
+            
             .inServicesName,
             .inServicesP {
                 font-weight: 600;
                 font-size: 24px;
+                line-height: 150%;
             }
             .inServicesTitle {
                 font-weight: 500;
                 font-size: 14px;
+                line-height: 120%;
             }
             .inServicesP {
                 color: #21B430;
             }
         }
+        .servicesImg {
+            display: flex;        
+            img{
+                width: 100%;
+            }
+        }
+
     }
 }
