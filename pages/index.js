@@ -6,6 +6,7 @@ import Advantage from '../components/Advantage';
 import Sales from '../components/Sales';
 import Rating from '../components/Rating';
 import Services from '../components/Services';
+import Client from '../components/Client';
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
     <Sales/>
     <Rating/>
     <Services/>
+    <Client/>
     </>
   )
 }
