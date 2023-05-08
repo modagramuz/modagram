@@ -1,6 +1,34 @@
-.background {
-  margin-top: 65px;
-  img {
+.tablo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+
+  .tabloImg {
+    position: absolute;
     width: 100%;
+
   }
+
+  .tabloLeft {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px;
+    padding-left: 50px;
+
+
+  }
+
+  .tabloRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px;
+
+
+    img {
+      width: 100%;
+    }
+  }
+
 }
