@@ -1,6 +1,43 @@
 .background {
   margin-top: 65px;
+  position: relative;
   img {
     width: 100%;
+    position: relative;
+  }
+
+  .items {
+    position: absolute;
+    bottom: 80px;
+    left: 120px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .itemsOne {
+      h3 {
+        font-weight: 600;
+        font-size: 4vw;
+        line-height: 69px;
+        color: #263238;
+      }
+        p{
+          margin: 15px 0 20px 0;
+        }    
+
+      .btnSignup{
+        background: #B42126;
+border-radius: 48px;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+border: none;
+padding: 12px 30px;
+      }
+    }
   }
 }

@@ -6,6 +6,7 @@ const Sales = () => {
   return (
     <>
       <div className="innerContainer">
+          
         <div className={cls.sales}>
           <div className={cls.leftSide}>
             {salesData.map((item) => (
