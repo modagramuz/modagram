@@ -88,6 +88,10 @@
     margin-top: 70px;
     padding: 0 27px;
     align-items: center;
+    @media (max-width: 650px) {
+    padding: 0 5px;
+      
+    }
 
     .ssss {
       h3 {
@@ -99,6 +103,10 @@
         font-size: 40px;
         line-height: 57px;
         color: #263238;
+        @media (max-width:700px) {
+          font-size: 25px;
+          line-height: 37px;
+        }
       }
       .insta {
         display: flex;
@@ -114,20 +122,21 @@
           line-height: 150%;
           color: #263238;
         }
-        
       }
     }
     .firstPart {
       max-width: 600px;
 
-
-
       p {
-      font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 150%;
-color: #263238;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #263238;
+        @media (max-width:700px) {
+          font-size: 15px;
+          line-height: 120%;
+        }
       }
       button {
         background: #b42126;

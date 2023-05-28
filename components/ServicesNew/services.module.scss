@@ -1,14 +1,24 @@
 .h1 {
   text-align: center;
   margin: 80px 0px 60px 0;
+  @media (max-width: 750px) {
+    font-size: 25px;
+  }
 }
 
 .services {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-bottom: 200px;
+  margin-bottom: 160px;
 
+  @media (max-width: 750px) {
+    margin-bottom: 350px;
+  }
+  
+  @media (max-width: 650px) {
+    margin-bottom: 150px;
+  }
   .servicesDelivery {
     margin-block-end: 25px;
     background: #ffffff;
@@ -33,6 +43,9 @@
       flex-direction: column;
       margin: auto;
       max-width: 390px;
+      @media (max-width: 900px) {
+        margin: auto 30px;
+      }
 
       .inServicesName {
         font-style: normal;
@@ -40,6 +53,9 @@
         font-size: 24px;
         line-height: 120%;
         color: #263238;
+        @media (max-width: 750px) {
+          font-size: 18px;
+        }
       }
       .inServicesTitle {
         font-style: normal;
@@ -48,6 +64,10 @@
         line-height: 150%;
         color: #263238;
         margin: 20px 0;
+        @media (max-width: 750px) {
+          margin: 10px 0;
+          line-height: 100%;
+        }
       }
       .inServicesP {
         color: #21b430;
@@ -57,6 +77,12 @@
           font-size: 24px;
           line-height: 150%;
           color: #21b430;
+          @media (max-width: 750px) {
+            margin: 10px 0;
+            font-size: 16px;
+
+            line-height: 100%;
+          }
         }
       }
     }

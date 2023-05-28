@@ -27,6 +27,12 @@ const Slider = () => {
         }}
         modules={[Pagination]}
         className="mySwiper"
+        breakpoints={{
+          320: { slidesPerView: 1, spaceBetween: 80 },
+          480: { slidesPerView: 1, spaceBetween: 150 },
+          768: { slidesPerView: 2, spaceBetween: 50 },
+          1024: { slidesPerView: 2, spaceBetween: 150 },
+        }}
       >
         <SwiperSlide>
           <div className={cls.imagePart}>

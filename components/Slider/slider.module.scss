@@ -36,6 +36,17 @@
     color: #263238;
     margin: 80px 0 100px 0;
     text-align: center;
+
+    @media (max-width: 1000px) {
+      font-size: 38px;
+      line-height: 47px;
+      margin: 60px 0 80px 0;
+    }
+    @media (max-width: 650px) {
+      font-size: 28px;
+      line-height: 37px;
+      margin: 30px 0 50px 0;
+    }
   }
 }
 .wrapOtziv {
@@ -51,16 +62,27 @@
       font-weight: 600;
       font-size: 48px;
       line-height: 57px;
-
       color: #263238;
       width: 100%;
+      @media (max-width: 1000px) {
+        font-size: 38px;
+        line-height: 47px;
+      }
+      @media (max-width: 650px) {
+        font-size: 38px;
+        line-height: 47px;
+      }
     }
   }
 }
 
 .btn {
   text-align: center;
-margin-bottom: 200px;
+  margin-bottom: 200px;
+  @media (max-width: 650px) {
+  margin-bottom: 110px;
+    
+  }
   button {
     background: #b42126;
     box-shadow: 0px 5px 25px 15px rgba(0, 0, 0, 0.15);

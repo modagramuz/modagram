@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageIcon, Logo } from "@/components/svg";
+import { ImageIcon, Logo,MenuIcon } from "@/components/svg";
 import cls from "./header.module.scss";
 import { headerData } from "@/shared/header";
 import { useRouter } from "next/router";
@@ -31,6 +31,9 @@ const Header = () => {
                 <onclick> Войти </onclick>
                 <button> Регистрация </button>
               </div>
+              <div className={cls.mobileMeny}>
+                <MenuIcon/>
+              </div>
             </div>
           </div>
           <div className={cls.heroWrap}>
@@ -40,7 +43,7 @@ const Header = () => {
                   case "/services":
                     return (
                       <>
-                        <h3> Услуги доставки из Турции от</h3>
+                        <h3 className={cls.servicesss}> Услуги доставки из Турции от</h3>
                         <p className={cls.redTexts}>Modagram.uz</p>
                         <button className={cls.regularBTn}>Cвязаться с нами</button>
                       </>
@@ -64,7 +67,7 @@ const Header = () => {
 
                   default:
                     return (
-                      <div>
+                      <div className={cls.hero}>
                         <h3>Доставка товаров из Турции в Узбекистан</h3>
                         <p>
                           Начните экономить до 80% на шопинге. Регистрируйтесь в
@@ -78,7 +81,7 @@ const Header = () => {
                 }
               })()}
             </div>
-            <div>
+            <div className={cls.imageBig}>
               <ImageIcon />
             </div>
           </div>

@@ -3,10 +3,24 @@
   align-items: end;
   gap: 52px;
   margin: 80px 0;
+  @media (max-width: 1050px) {
+    flex-direction: column;
+    align-items: start;
+  }
+  @media (max-width: 1050px) {
+    flex-direction: column;
+    align-items: center;
+  }
   .leftSide {
     display: grid;
     grid-template-columns: repeat(3, 180px);
     gap: 10px;
+    @media (max-width: 550px) {
+      grid-template-columns: repeat(3, 150px);
+    }
+    @media (max-width: 500px) {
+      grid-template-columns: repeat(2, 150px);
+    }
     .salesImg {
       background: #f4f5f8;
       border-radius: 30px;
@@ -14,6 +28,9 @@
       align-items: center;
       justify-content: center;
       height: 180px;
+      @media (max-width: 550px) {
+        height: 150px;
+      }
     }
   }
   .rightSide {
@@ -23,33 +40,45 @@
       font-size: 48px;
       line-height: 57px;
       color: #263238;
+      @media (max-width: 650px) {
+        font-size: 30px;
+        line-height: 37px;
+      }
     }
-    .parag{
+    .parag {
       font-style: normal;
       font-weight: 500;
       font-size: 22px;
       line-height: 150%;
       color: #263238;
       margin: 20px 0;
+      @media (max-width: 650px) {
+        font-size: 18px;
+        line-height: 120%;
+      }
     }
-    .scnd{
+    .scnd {
       font-style: normal;
       font-weight: 500;
       font-size: 22px;
       line-height: 150%;
       color: #263238;
       margin: 20px 0;
+      @media (max-width: 650px) {
+        font-size: 18px;
+        line-height: 120%;
+      }
     }
-    button{
+    button {
       background: rgba(180, 33, 38, 0.1);
-border-radius: 33px;
-border: none;
-padding: 8px 14px;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-color: #B42126;
+      border-radius: 33px;
+      border: none;
+      padding: 8px 14px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      color: #b42126;
     }
   }
 }
