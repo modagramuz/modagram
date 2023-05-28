@@ -1,30 +1,89 @@
 import React from "react";
-import { Logo } from "@/components/svg";
+import { ImageIcon, Logo } from "@/components/svg";
 import cls from "./header.module.scss";
 import { headerData } from "@/shared/header";
+import { useRouter } from "next/router";
+import Link from "next/link";
+
 const Header = () => {
+  const router = useRouter();
+  console.log(router, "router");
   return (
     <>
-      <div className="innerContainer">
-        <div className={cls.header}>
-          <div className={cls.wrapItems}>
+      <div className={cls.backgroundImage}>
+        <div className="innerContainer">
+          <div className={cls.header}>
+            <div className={cls.wrapItems}>
+              <div>
+                <Logo />
+              </div>
+              <div className={cls.rightPart}>
+                {headerData.map((item) => (
+                  <div
+                  className={cls.naviRouter}
+                    key={item.id}
+                  >
+                    <Link href={item.navigaTe }>{item.name}</Link>
+                  </div>
+                ))}
+              </div>
+              <div className={cls.login}>
+                <onclick> Войти </onclick>
+                <button> Регистрация </button>
+              </div>
+            </div>
+          </div>
+          <div className={cls.heroWrap}>
+            <div className={cls.firstPart}>
+              {(() => {
+                switch (router.pathname) {
+                  case "/services":
+                    return (
+                      <>
+                        <h3> Услуги доставки из Турции от</h3>
+                        <p className={cls.redTexts}>Modagram.uz</p>
+                        <button className={cls.regularBTn}>Cвязаться с нами</button>
+                      </>
+                    );
+                    case "/magazine":
+                    return (
+                      <>
+                        <h3> Лучшие магазины для онлайн-шопинга</h3>
+                        <p>Для участия в больших национальных распродажах с огромными скидками до 80-90%. Зарегистрируйтесь на Modagram.uz прямо сейчас, чтобы получить его бесплатно (если вы этого еще не сделали).</p>
+                        <button className={cls.blueBtn}>Cвязаться с нами</button>
+                      </>
+                    );
+                    case "/faq":
+                      return (
+                        <>
+                          <h3> Часто задаваемые вопросы</h3>
+                          <p>Вы можете прочитать эти вопросы и ответы перед покупкой и принять это как соглашение между нами.</p>
+                          <button className={cls.blueBtn}>Cвязаться с нами</button>
+                        </>
+                      );
+
+                  default:
+                    return (
+                      <div>
+                        <h3>Доставка товаров из Турции в Узбекистан</h3>
+                        <p>
+                          Начните экономить до 80% на шопинге. Регистрируйтесь в
+                          Modagram, чтобы покупать со скидками в Турции одежду,
+                          обувь, гаджеты известных брендов и безопасно
+                          отправлять вещи в Узбекистан.
+                        </p>
+                        <button className={cls.regularBTn}>Регистрация</button>
+                      </div>
+                    );
+                }
+              })()}
+            </div>
             <div>
-              <Logo />
-            </div>
-            <div className={cls.rightPart}>
-              {headerData.map((item) => (
-                <div key={item.id}>{item.name}</div>
-              ))}
-            </div>
-            <div className={cls.login}>
-              <onclick> Войти </onclick>
-              <button> Регистрация </button>
+              <ImageIcon />
             </div>
           </div>
         </div>
-       
       </div>
-
     </>
   );
 };

@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,19 +8,15 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: "Montserrat";
-
-
-
+  font-family: "Gilroy";
 }
 
-
-.container{
+.container {
   max-width: 1440px;
   margin: auto;
 }
 
-.innerContainer{
+.innerContainer {
   max-width: 1200px;
   position: relative;
   margin: auto;
@@ -30,19 +24,25 @@ body {
 
 @font-face {
   font-family: "Gilroy";
-  src: url("/public/font/Gilroy/Gilroy-Regular.woff2") format("woff2"),
-    url("/public/font/Gilroy/Gilroy-Regular.woff") format("woff"),
-    url("/public/font/Gilroy/Gilroy-Regular.ttf") format("ttf");
+  src: url("/Gilroy/Gilroy-Regular.eot") format("eot"),
+    url("/Gilroy/Gilroy-Regular.woff") format("woff"),
+    url("/Gilroy/Gilroy-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: "Montserrat";
-  src: url("/Montserrat/Montserrat-Regular.woff2") format("woff2"),
-    url("/Montserrat/Montserrat-Regular.woff") format("woff"),
-    url("/Montserrat/Montserrat-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+
+.mySwiper {
+  margin-bottom: 100px;
+  .swiper-wrapper{
+    padding: 50px 0;
+  }
+  .swiper-pagination-bullet-active{
+    background: #B42126;
+    border-radius: 2px;
+  }
+  .swiper-pagination-bullet{
+    border-radius: 2px;
+
+  }
 }

@@ -1,0 +1,59 @@
+.backGroun {
+  background: #202020;
+  
+  .wrapFooter {
+    padding-top: 185px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    position: relative;
+
+    .firstPart {
+      max-width: 384px;
+      .logoTiti {
+        margin-top: 30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #ffff;
+      }
+      .operator {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 30px 0 75px 0;
+        p {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 150%;
+        }
+        .icon {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+      }
+    }
+
+    .scndPart {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      color: #ffff;
+    }
+    .lastPart {
+      max-width: 280px;
+      color: #ffff;
+
+      .time {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #ffff;
+      }
+    }
+  }
+}

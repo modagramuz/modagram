@@ -6,16 +6,17 @@ import Advantage from '../components/Advantage';
 import Sales from '../components/Sales';
 import Rating from '../components/Rating';
 import Services from '../components/Services';
-
+import Slider from '@/components/Slider';
 
 export default function Home() {
   return (
     <>
-    <Hero/>
+    {/* <Hero/> */}
     <Advantage/>
     <Sales/>
     <Rating/>
     <Services/>
+    <Slider/>
     </>
   )
 }

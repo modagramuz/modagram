@@ -4,9 +4,10 @@
 }
 
 .services {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 200px;
 
   .servicesDelivery {
     margin-block-end: 25px;
@@ -14,14 +15,13 @@
     border: 1px solid rgba(71, 93, 135, 0.1);
     border-radius: 40px;
 
-
     &:nth-of-type(odd) {
-        display: flex;
-      }
-      &:nth-of-type(even) {
-        display: flex;
-        flex-direction: row-reverse;
-      }
+      display: flex;
+    }
+    &:nth-of-type(even) {
+      display: flex;
+      flex-direction: row-reverse;
+    }
     .servicesImg {
       img {
         height: 100%;

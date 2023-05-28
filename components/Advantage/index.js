@@ -11,7 +11,10 @@ const Advantage = () => {
             <div className={cls.advantageSquare}>
               <div key={item.id}>
                 <div className={cls.advantageName}>
+                  <p className={cls.titile}>
+
                   {item.name}
+                  </p>
                   <img src={item.imgPath} />
                 </div>
                 <div className={cls.advantageTitle}>

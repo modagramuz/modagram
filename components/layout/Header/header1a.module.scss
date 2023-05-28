@@ -14,19 +14,6 @@
       display: flex;
       align-items: center;
       gap: 30px;
-    
-      .naviRouter{
-            a{
-              text-decoration:none;
-              font-style: normal;
-              font-weight: 600;
-              font-size: 12px;
-              line-height: 14px;
-              text-transform: uppercase;
-              
-              color: #212121;
-            }
-      }
     }
 
     button {
@@ -41,6 +28,8 @@
 }
 
 .backgroundImage {
+  position: absolute !important;
+  bottom: 355px;
   background: radial-gradient(
       71.82% 147.35% at 6.9% 17.66%,
       rgba(248, 54, 0, 0.15) 0%,
@@ -59,7 +48,6 @@
   z-index: 1;
   position: relative;
   padding-bottom: 3.5rem;
-  min-height: 37.25rem;
   border-radius: 4rem;
   margin: 0 20px;
 
@@ -98,68 +86,62 @@
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
-    .firstPart {
-      max-width: 600px;
-.redTexts{
-  color: #B42126;
-  font-style: normal;
-font-weight: 600;
-font-size: 58px;
-line-height: 69px;
-}
+    padding: 0 27px;
+    align-items: center;
+
+    .ssss {
       h3 {
         font-style: normal;
-        font-weight: 600;
-        font-size: 58px;
-        line-height: 69px;
         color: #263238;
         margin-bottom: 15px;
-      }
-
-      p {
         font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 150%;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 57px;
         color: #263238;
       }
-      // button {
-      //   background: #b42126;
-      //   border-radius: 48px;
-      //   border: none;
-      //   font-style: normal;
-      //   font-weight: 600;
-      //   font-size: 12px;
-      //   line-height: 14px;
-      //   text-transform: uppercase;
-      //   color: #ffffff;
-      //   padding: 13px 30px;
-      //   margin-top: 20px;
-      // }
-      .blueBtn {
+      .insta {
         display: flex;
-        padding: 13px 30px;
-        background: #475d87;
+        align-items: center;
+        background: #ffffff;
+        border-radius: 33px;
+        width: 242px;
+        justify-content: center;
+        p {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 150%;
+          color: #263238;
+        }
+        
+      }
+    }
+    .firstPart {
+      max-width: 600px;
+
+
+
+      p {
+      font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+color: #263238;
+      }
+      button {
+        background: #b42126;
         border-radius: 48px;
-        border: 1px;
-        color: white;
-        padding: 13px 30px;
+        border: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
         text-transform: uppercase;
-
+        color: #ffffff;
+        padding: 13px 30px;
         margin-top: 20px;
-    }
-    .regularBTn {
-      display: flex;
-      padding: 13px 30px;
-      background: #b42126;
-      border-radius: 48px;
-      text-transform: uppercase;
-
-      border: 1px;
-      color: white;
-      padding: 13px 30px;
-      margin-top: 20px;
-    }
+      }
     }
   }
 }
