@@ -15,7 +15,9 @@ const Header = () => {
           <div className={cls.header}>
             <div className={cls.wrapItems}>
               <div>
+                <Link href={'/'}>
                 <Logo />
+                </Link>
               </div>
               <div className={cls.rightPart}>
                 {headerData.map((item) => (
