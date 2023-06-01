@@ -72,3 +72,179 @@ body {
 a {
   text-decoration: none;
 }
+
+
+
+.container {
+  // height: 100vh;/
+  overflow-y: hidden;
+  color: beige;
+}
+
+nav {  
+  display: flex;
+  justify-content: space-between;
+
+  .logo-container {
+    overflow-y: hidden;
+    
+    h1 {
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+  }
+
+  .menu-container {
+    overflow-y: hidden;
+
+    div {
+      text-transform: uppercase;
+      font-size: 13px;
+  
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+
+  button {
+    align-self: flex-end;
+    margin: 35px 45px 0 0;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 13px;
+    color: white;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 40px;
+    
+    li {
+      margin: 20px 0;
+      overflow-y: hidden;   
+      user-select: none;   
+      
+      div {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 34px;
+      }
+
+      &:hover {
+        font-style: italic;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .contact {
+    margin-top: 80px;
+    display: flex;
+
+    h5 {
+      font-weight: normal;
+
+      &:first-of-type {
+        margin-right: 40px;
+      }
+    }
+  }
+}
+
+.img-container {  
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  
+    img {  
+      height: 700px;
+      pointer-events: none;
+    }
+}
+
+
+.link{
+  color: #fff;
+}
+
+
+div.c{
+  position: relative;
+}
+input{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+  visibility: 0;
+}
+.titleNEw{
+  background: #f4f5f8;
+
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #263238;
+    gap: 20px;
+  }
+
+}
+label::before{
+  content:"+";
+  display: inline-block;
+}
+label{
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+div.p{
+  max-height:0px;
+  overflow: hidden;
+  transition:max-height 0.5s;
+  background: #f4f5f8;
+
+}
+div.p p {
+  padding:2em;
+}
+
+input:checked ~ h1 ~ div.p{
+  max-height:150px;
+}
+a{
+  color:steelblue;
+}

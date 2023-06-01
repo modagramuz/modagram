@@ -14,13 +14,11 @@
     margin-right: 0;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     gap: 20px;
-  }
-
-  @media (max-width: 380px) {
     grid-template-columns: repeat(1, 1fr);
   }
+
 
   .grid {
     background: #f4f5f8;

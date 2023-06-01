@@ -3,6 +3,7 @@ import React from "react";
 import cls from "./footer.module.scss";
 import { LogoScnd, TgIcon, BackNew, IngsIcon } from "@/components/svg";
 import Banerer from "../Header/banner";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -20,10 +21,12 @@ const Footer = () => {
             </p>
             <div className={cls.operator}>
               <p>Operator:</p>
-              <div className={cls.icon}>
-                <TgIcon />
-                @modagramuz_bot
-              </div>
+              <Link href={"https://t.me/modagramuz_bot"}>
+                <div className={cls.icon}>
+                  <TgIcon />
+                  @modagramuz_bot
+                </div>
+              </Link>
             </div>
           </div>
           <div className={cls.scndPart}>
