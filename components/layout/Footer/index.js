@@ -31,11 +31,27 @@ const Footer = () => {
           </div>
           <div className={cls.scndPart}>
             <h3>Информация:</h3>
+            <Link href={'/'}>
             <p>Главная</p>
+            
+            </Link>
+            <Link href={"/services"}>
             <p>Сервиси</p>
+            
+            </Link>
+            <Link href={"/magazine"}>
+
             <p>Магазины</p>
+</Link>
+<Link href={"/"}>
+
             <p>Заказ</p>
+</Link>
+<Link href={"/faq"}>
+
             <p>F.A.Q</p>
+</Link>
+
           </div>
           <div className={cls.lastPart}>
             <h3>Локация:</h3>
