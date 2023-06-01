@@ -218,6 +218,10 @@ input{
     align-items: center;
     color: #263238;
     gap: 20px;
+    @media (max-width: 600px) {
+      font-size: 18px;
+      line-height: 23px;
+    }
   }
 
 }
