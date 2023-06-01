@@ -26,8 +26,9 @@ const Slider = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className={`mySwiper ${cls.swiperWrap}`}
         breakpoints={{
+          0: { slidesPerView: 1, spaceBetween: 70 },
           320: { slidesPerView: 1, spaceBetween: 80 },
           480: { slidesPerView: 1, spaceBetween: 150 },
           768: { slidesPerView: 2, spaceBetween: 50 },

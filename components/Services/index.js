@@ -2,7 +2,6 @@ import React from "react";
 import cls from "./services.module.scss";
 import { serviceData } from "@/shared/services";
 
-
 const Services = () => {
   return (
     <>
@@ -15,9 +14,13 @@ const Services = () => {
               <div className={cls.servicesName}>
                 <div className={cls.inServicesName}>{item.name}</div>
                 <div className={cls.inServicesTitle}>{item.title}</div>
-                <div className={cls.inServicesP}><p>БЕСПЛАТНО</p></div>
+                <div className={cls.inServicesP}>
+                  <p>БЕСПЛАТНО</p>
+                </div>
               </div>
-              <div className={cls.servicesImg}><img src={item.img} /></div>
+              <div className={cls.servicesImg}>
+                <img src={item.img} />
+              </div>
             </div>
           ))}
         </div>

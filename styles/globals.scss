@@ -8,7 +8,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: "Gilroy";
+  font-family: "Gilroy", sans-serif;
 }
 
 .container {
@@ -21,8 +21,7 @@ body {
   position: relative;
   margin: auto;
   @media (max-width: 1200px) {
-  margin: auto 20px;
-    
+    margin: auto 20px;
   }
 }
 
@@ -38,24 +37,38 @@ body {
 
 .mySwiper {
   margin-bottom: 100px;
-  @media (max-width: 650px) {
-  margin-bottom: 50px;
-    
-  }
-  .swiper-wrapper{
-    padding: 50px 0;
-  }
-  .swiper-pagination-bullet-active{
-    background: #B42126;
-    border-radius: 2px;
-  }
-  .swiper-pagination-bullet{
-    border-radius: 2px;
 
+  @media (max-width: 1200px) {
+    margin-bottom: 100px !important;
+  }
+  
+  @media (max-width: 650px) {
+    margin-bottom: 70px !important;
+  }
+  
+  @media (max-width: 380px) {
+    margin-bottom: 30px !important;
+  }
+
+  @media (max-width: 650px) {
+    margin-bottom: 50px;
+  }
+  .swiper-wrapper {
+    padding: 50px 0;
+
+    @media (max-width: 650px) {
+      padding: 10px 0 50px 0;
+    }
+  }
+  .swiper-pagination-bullet-active {
+    background: #b42126;
+    border-radius: 2px;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 2px;
   }
 }
 
-
-a{
+a {
   text-decoration: none;
 }

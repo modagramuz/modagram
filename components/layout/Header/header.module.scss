@@ -14,6 +14,36 @@
       margin: 0 30px;
     }
 
+    @media (max-width: 915px) {
+      margin: 0 15px;
+    }
+
+    @media (max-width: 500px) {
+      margin: 0;
+    }
+
+    .logo a svg {
+      @media (max-width: 935px) {
+        width: 200px;
+      }
+
+      @media (max-width: 880px) {
+        width: 180px;
+      }
+
+      @media (max-width: 850px) {
+        width: 237px;
+      }
+
+      @media (max-width: 500px) {
+        width: 200px;
+      }
+
+      @media (max-width: 390px) {
+        width: 180px;
+      }
+    }
+
     .mobileMeny {
       display: none;
 
@@ -26,6 +56,12 @@
       display: flex;
       align-items: center;
       gap: 30px;
+      @media (max-width: 1020px) {
+        gap: 20px;
+      }
+      @media (max-width: 880px) {
+        font-size: 14px;
+      }
       @media (max-width: 850px) {
         display: none;
       }
@@ -40,6 +76,10 @@
           text-transform: uppercase;
 
           color: #212121;
+
+          @media (max-width: 880px) {
+            font-size: 11px;
+          }
         }
       }
     }
@@ -78,8 +118,38 @@
   border-radius: 4rem;
   margin: 0 20px;
 
-  @media (max-width: 700px) {
-    min-height: 30.25rem;
+  @media (max-width: 960px) {
+    min-height: 30rem;
+  }
+
+  @media (max-width: 910px) {
+    min-height: 20rem;
+    padding-bottom: 1rem;
+  }
+
+  @media (max-width: 846px) {
+    min-height: 20rem;
+    padding-bottom: 0;
+  }
+
+  @media (max-width: 800px) {
+    min-height: 10rem;
+  }
+
+  @media (max-width: 726px) {
+    min-height: 24rem;
+  }
+
+  @media (max-width: 600px) {
+    min-height: 24rem;
+  }
+
+  @media (max-width: 420px) {
+    min-height: 25rem;
+  }
+  
+  @media (max-width: 336px) {
+    min-height: 24rem;
   }
 
   &::before {
@@ -117,19 +187,57 @@
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
+    column-gap: 10px;
     @media (max-width: 1400px) {
       margin: 70px 20px 0 20px;
     }
+
+    @media (max-width: 846px) {
+      margin-top: 40px;
+    }
+
+    @media (max-width: 726px) {
+      margin-top: 45px;
+    }
+
+    @media (max-width: 540px) {
+      margin-top: 30px;
+    }
+
+    @media (max-width: 450px) {
+      margin-top: 0px;
+    }
+    
+    @media (max-width: 337px) {
+      margin-left: 12px;
+      margin-right: 12px;
+    }
     .imageBig {
-      @media (max-width: 1200px) {
-        width: 100%;
-      }
-  
-      @media (max-width: 700px) {
+      @media (max-width: 726px) {
         display: none;
       }
 
       svg {
+        @media (max-width: 1050px) {
+          width: 500px;
+        }
+
+        @media (max-width: 1005px) {
+          width: 450px;
+        }
+
+        @media (max-width: 910px) {
+          width: 420px;
+        }
+
+        @media (max-width: 846px) {
+          width: 380px;
+        }
+
+        @media (max-width: 810px) {
+          width: 350px;
+        }
+
         @media (max-width: 800px) {
           width: 300px !important;
         }
@@ -138,10 +246,19 @@
     .firstPart {
       max-width: 600px;
 
-      .servicesss{
+      .servicesss {
+        @media (max-width: 960px) {
+          font-size: 30px;
+          line-height: 32px;
+        }
+
         @media (max-width: 650px) {
           font-size: 30px;
-          line-height: 50px;
+          line-height: normal;
+        }
+
+        @media (max-width: 386px) {
+          font-size: 22px;
         }
       }
       .redTexts {
@@ -150,6 +267,30 @@
         font-weight: 600;
         font-size: 58px;
         line-height: 69px;
+
+        @media (max-width: 1005px) {
+          font-size: 50px;
+          line-height: 55px;
+        }
+
+        @media (max-width: 910px) {
+          font-size: 45px;
+          line-height: 50px;
+        }
+
+        @media (max-width: 846px) {
+          font-size: 40px;
+          line-height: 45px;
+        }
+
+        @media (max-width: 450px) {
+          font-size: 35px;
+          line-height: normal;
+        }
+        
+        @media (max-width: 380px) {
+          font-size: 30px;
+        }
       }
       h3 {
         font-style: normal;
@@ -162,6 +303,25 @@
           font-size: 38px;
           line-height: 39px;
         }
+
+        @media (max-width: 960px) {
+          font-size: 30px;
+          line-height: 32px;
+        }
+
+        @media (max-width: 420px) {
+          font-size: 27px;
+          line-height: normal;
+        }
+
+        @media (max-width: 386px) {
+          font-size: 22px;
+          margin-bottom: 10px;
+        }
+        
+        @media (max-width: 340px) {
+          font-size: 20px;
+        }
       }
 
       p {
@@ -170,6 +330,20 @@
         font-size: 14px;
         line-height: 150%;
         color: #263238;
+
+        @media (max-width: 960px) {
+          font-size: 13px;
+        }
+        
+        @media (max-width: 365px) {
+          font-size: 12px;
+        }
+      }
+
+      button {
+        @media (max-width: 960px) {
+          font-size: 13px;
+        }
       }
 
       .blueBtn {
@@ -195,6 +369,16 @@
         color: white;
         padding: 13px 30px;
         margin-top: 20px;
+
+        @media (max-width: 370px) {
+          font-size: 12px;
+          padding: 13px 28px;
+        }
+        
+        @media (max-width: 336px) {
+          margin-top: 15px;
+          padding: 10px 25px;
+        }
       }
     }
   }

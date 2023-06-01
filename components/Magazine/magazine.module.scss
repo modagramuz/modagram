@@ -1,9 +1,27 @@
 .wrap {
   margin: 100px 0 200px 0;
+
+  @media (max-width: 1240px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  @media (max-width: 1200px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .RoomSelect {
     display: flex;
     gap: 20px;
     align-items: center;
+
+    @media (max-width: 665px) {
+      gap: 15px;
+    }
+    
+    @media (max-width: 650px) {
+      flex-wrap: wrap;
+    }
     .Room {
       background: #ffffff;
       border: 1px solid #475d87;
@@ -15,6 +33,10 @@
       line-height: 14px;
       color: #475d87;
       cursor: pointer;
+
+      @media (max-width: 695px) {
+        padding: 13px 25px;
+      }
     }
     .RoomActive {
       background: #475d87;
@@ -29,6 +51,18 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 
+    @media (max-width: 950px) {
+      gap: 20px;
+    }
+
+    @media (max-width: 700px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media (max-width: 480px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
     margin-top: 50px;
     .inner {
       background: #f4f5f8;
@@ -38,6 +72,47 @@
       gap: 30px;
       padding: 30px;
 
+      @media (max-width: 1100px) {
+        padding: 25px;
+        gap: 25px;
+      }
+
+      @media (max-width: 870px) {
+        padding: 20px;
+        gap: 20px;
+      }
+
+      @media (max-width: 850px) {
+        width: 100%;
+        padding: 10px;
+      }
+
+      @media (max-width: 540px) {
+        padding: 5px;
+      }
+
+      @media (max-width: 480px) {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        gap: 30px;
+      }
+      
+      @media (max-width: 400px) {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+      }
+      
+      @media (max-width: 350px) {
+        padding: 20px;
+      }
+      
+      @media (max-width: 320px) {
+        padding: 15px;
+      }
+
       .text {
         .textOne {
           font-style: normal;
@@ -45,7 +120,7 @@
           font-size: 12px;
           line-height: 14px;
           color: #475d87;
-          a{
+          a {
             text-decoration: none;
           }
         }
@@ -57,6 +132,16 @@
           line-height: 150%;
           color: #263238;
           margin-top: 14px;
+
+          @media (max-width: 1010px) {
+            font-size: 12px;
+            line-height: 130%;
+          }
+          
+          @media (max-width: 480px) {
+            font-size: 14px;
+            line-height: 150%;
+          }
         }
       }
 
@@ -64,6 +149,40 @@
         img {
           width: 113px;
           object-fit: contain;
+
+          @media (max-width: 1110px) {
+            width: 95px;
+          }
+
+          @media (max-width: 850px) {
+            width: 80%;
+          }
+
+          @media (max-width: 800px) {
+            width: 95%;
+          }
+
+          @media (max-width: 700px) {
+            width: 113px;
+            height: 160px;
+          }
+
+          @media (max-width: 600px) {
+            width: 113px;
+            height: 140px;
+          }
+
+          @media (max-width: 540px) {
+            width: 90px;
+          }
+
+          @media (max-width: 520px) {
+            width: 80px;
+          }
+          
+          @media (max-width: 480px) {
+            width: 113px;
+          }
         }
       }
     }

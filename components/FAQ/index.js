@@ -25,23 +25,22 @@ export default function Faq() {
       name: "Как узнать, сколько будет стоить мой товар?",
     },
     {
-        id: 1,
-        name: "Курс обмена изменился после того, как мы его купили что теперь?",
-      },
+      id: 1,
+      name: "Курс обмена изменился после того, как мы его купили что теперь?",
+    },
   ];
   return (
     <>
       <div className="innerContainer">
         <div className={cls.wrapFaq}>
-            {data.map((item)=>(
- <div className={cls.grid}>
- <div>
-   <PlusIcon />
- </div>
- <p>{item.name}</p>
-</div>
-            ))}
-         
+          {data.map((item) => (
+            <div className={cls.grid}>
+              <div>
+                <PlusIcon />
+              </div>
+              <p>{item.name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </>

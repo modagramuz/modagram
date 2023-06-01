@@ -14,7 +14,7 @@ const Header = () => {
         <div className="innerContainer">
           <div className={cls.header}>
             <div className={cls.wrapItems}>
-              <div>
+              <div className={cls.logo}>
                 <Link href={'/'}>
                 <Logo />
                 </Link>

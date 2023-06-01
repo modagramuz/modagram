@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className={cls.backGroun}>
       <div className="innerContainer">
-        <Banerer/>
+        <Banerer />
 
         <div className={cls.wrapFooter}>
           <div className={cls.firstPart}>
