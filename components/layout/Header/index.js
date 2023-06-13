@@ -4,6 +4,7 @@ import cls from "./header.module.scss";
 import { headerData } from "@/shared/header";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import MobileMenu from "../MobileMenu";
 
 const Header = () => {
   const router = useRouter();
@@ -14,7 +15,7 @@ const Header = () => {
         <div className="innerContainer">
           <div className={cls.header}>
             <div className={cls.wrapItems}>
-              <div>
+              <div className={cls.logo}>
                 <Link href={'/'}>
                 <Logo />
                 </Link>
@@ -34,7 +35,8 @@ const Header = () => {
                 <button> Регистрация </button>
               </div>
               <div className={cls.mobileMeny}>
-                <MenuIcon/>
+                {/* <MenuIcon/> */}
+<MobileMenu/>
               </div>
             </div>
           </div>

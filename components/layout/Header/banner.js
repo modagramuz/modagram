@@ -1,7 +1,7 @@
 import React from "react";
-import { ImageIcon, Logo, IngsIcon } from "@/components/svg";
+import {  Logo, IngsIcon } from "@/components/svg";
 import cls from "./header1a.module.scss";
-import { headerData } from "@/shared/header";
+import Link from "next/link";
 
 const Banerer = () => {
   return (
@@ -18,10 +18,14 @@ const Banerer = () => {
             </div>
             <div className={cls.ssss}>
               <h3>Не забудьте подписаться на нас в социальных сетях</h3>
+              
+              <Link href={'https://www.instagram.com/modagramuz/'}>
               <div className={cls.insta}>
                 <p>@modagramuz</p>
                 <IngsIcon />
               </div>
+              </Link>
+            
             </div>
           </div>
         </div>
