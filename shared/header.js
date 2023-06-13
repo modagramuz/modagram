@@ -13,7 +13,7 @@ export const headerData = [
   {
     id: 3,
     name: "Магазины",
-    navigaTe: "/magazine"
+    navigaTe: "/shops"
 
   },
   {
