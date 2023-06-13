@@ -57,6 +57,10 @@
           line-height: 150%;
           color: #263238;
           margin-top: 14px;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;  
+          overflow: hidden;
         }
       }
 

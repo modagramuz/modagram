@@ -3,7 +3,7 @@ import flats from "@/shared/flats";
 import rooms from "@/shared/room";
 import cls from "./magazine.module.scss";
 import Link from "next/link";
-
+import ClampLines from 'react-clamp-lines';
 export default function Magazine() {
   const [roomNumber, setRoomNumber] = useState(1);
   const [sizeIndex, setSizeIndex] = useState(0);
@@ -44,7 +44,8 @@ export default function Magazine() {
                 <p className={cls.textOne}>
                   <Link href={item.link}>{item?.name}</Link>
                 </p>
-                <p className={cls.textScnd}>{item.title}</p>
+                <p className={cls.textScnd}>
+                  {item.title}</p>
               </div>
             </div>
           ))}
