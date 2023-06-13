@@ -52,7 +52,7 @@ const Header = () => {
                         <button className={cls.regularBTn}>Cвязаться с нами</button>
                       </>
                     );
-                    case "/magazine":
+                    case "/shops":
                     return (
                       <>
                         <h3> Лучшие магазины для онлайн-шопинга</h3>
