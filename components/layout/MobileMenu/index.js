@@ -17,7 +17,7 @@ const MOBILE_NAV_ITEMS = [
   {
     id: 2,
     navTitle: "Магазины",
-    href: "/magazine",
+    href: "/shops",
   },
   {
     id: 3,
