@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import cls from "./slider.module.scss";
+import Link from "next/link";
 const Slider = () => {
   return (
     <div className="innerContainer">
@@ -118,7 +119,9 @@ const Slider = () => {
         </SwiperSlide>
       </Swiper>
       <div className={cls.btn}>
+      <Link href={'https://t.me/modagramuz_bot'}>
         <button>Заказать</button>
+        </Link>
       </div>
     </div>
   );

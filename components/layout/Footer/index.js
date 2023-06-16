@@ -37,13 +37,13 @@ const Footer = () => {
             <Link className="link" href={"/services"}>
               <p>Сервиси</p>
             </Link>
-            <Link className="link"  href={"/magazine"}>
+            <Link className="link" href={"/magazine"}>
               <p>Магазины</p>
             </Link>
-            <Link className="link"  href={"/"}>
+            <Link className="link" href={"/"}>
               <p>Заказ</p>
             </Link>
-            <Link className="link"  href={"/faq"}>
+            <Link className="link" href={"/faq"}>
               <p>F.A.Q</p>
             </Link>
           </div>
@@ -59,10 +59,14 @@ const Footer = () => {
             <h4>Рабочие время:</h4>
             <br />
             <p className={cls.time}>10:00 - 17:00</p>
-            <br />
-            <br />
-            <br />
-            <p>info@modagram.uz</p>
+
+            <p
+              style={{
+                paddingTop: "30px",
+              }}
+            >
+              info@modagram.uz
+            </p>
           </div>
         </div>
       </div>

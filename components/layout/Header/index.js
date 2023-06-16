@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageIcon, Logo,MenuIcon } from "@/components/svg";
+import { ImageIcon, Logo, MenuIcon } from "@/components/svg";
 import cls from "./header.module.scss";
 import { headerData } from "@/shared/header";
 import { useRouter } from "next/router";
@@ -16,27 +16,28 @@ const Header = () => {
           <div className={cls.header}>
             <div className={cls.wrapItems}>
               <div className={cls.logo}>
-                <Link href={'/'}>
-                <Logo />
+                <Link href={"/"}>
+                  <Logo />
                 </Link>
               </div>
               <div className={cls.rightPart}>
                 {headerData.map((item) => (
-                  <div
-                  className={cls.naviRouter}
-                    key={item.id}
-                  >
-                    <Link href={item.navigaTe }>{item.name}</Link>
+                  <div className={cls.naviRouter} key={item.id}>
+                    <Link href={item.navigaTe}>{item.name}</Link>
                   </div>
                 ))}
               </div>
               <div className={cls.login}>
-                <onclick> Войти </onclick>
-                <button> Регистрация </button>
+                <Link href={'https://my.modagram.uz/'}>
+                <div> Войти </div>
+                </Link>
+                <Link href={'https://t.me/modagramuz_bot'}>
+                  <button> ЗАКАЗАТЬ </button>
+                </Link>
               </div>
               <div className={cls.mobileMeny}>
                 {/* <MenuIcon/> */}
-<MobileMenu/>
+                <MobileMenu />
               </div>
             </div>
           </div>
@@ -47,27 +48,44 @@ const Header = () => {
                   case "/services":
                     return (
                       <>
-                        <h3 className={cls.servicesss}> Услуги доставки из Турции от</h3>
+                        <h3 className={cls.servicesss}>
+                          {" "}
+                          Услуги доставки из Турции от
+                        </h3>
                         <p className={cls.redTexts}>Modagram.uz</p>
-                        <button className={cls.regularBTn}>Cвязаться с нами</button>
+                        <button className={cls.regularBTn}>
+                          Cвязаться с нами
+                        </button>
                       </>
                     );
-                    case "/shops":
+                  case "/shops":
                     return (
                       <>
                         <h3> Лучшие магазины для онлайн-шопинга</h3>
-                        <p>Для участия в больших национальных распродажах с огромными скидками до 80-90%. Зарегистрируйтесь на Modagram.uz прямо сейчас, чтобы получить его бесплатно (если вы этого еще не сделали).</p>
-                        <button className={cls.blueBtn}>Cвязаться с нами</button>
+                        <p>
+                          Для участия в больших национальных распродажах с
+                          огромными скидками до 80-90%. Зарегистрируйтесь на
+                          Modagram.uz прямо сейчас, чтобы получить его бесплатно
+                          (если вы этого еще не сделали).
+                        </p>
+                        <button className={cls.blueBtn}>
+                          Cвязаться с нами
+                        </button>
                       </>
                     );
-                    case "/faq":
-                      return (
-                        <>
-                          <h3> Часто задаваемые вопросы</h3>
-                          <p>Вы можете прочитать эти вопросы и ответы перед покупкой и принять это как соглашение между нами.</p>
-                          <button className={cls.blueBtn}>Cвязаться с нами</button>
-                        </>
-                      );
+                  case "/faq":
+                    return (
+                      <>
+                        <h3> Часто задаваемые вопросы</h3>
+                        <p>
+                          Вы можете прочитать эти вопросы и ответы перед
+                          покупкой и принять это как соглашение между нами.
+                        </p>
+                        <button className={cls.blueBtn}>
+                          Cвязаться с нами
+                        </button>
+                      </>
+                    );
 
                   default:
                     return (
@@ -79,7 +97,10 @@ const Header = () => {
                           обувь, гаджеты известных брендов и безопасно
                           отправлять вещи в Узбекистан.
                         </p>
-                        <button className={cls.regularBTn}>Регистрация</button>
+                        <Link href={'https://t.me/modagramuz_bot'}>
+                        
+                        <button className={cls.regularBTn}>ЗАКАЗАТЬ</button>
+                        </Link>
                       </div>
                     );
                 }
