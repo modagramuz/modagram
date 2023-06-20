@@ -28,10 +28,10 @@ const Header = () => {
                 ))}
               </div>
               <div className={cls.login}>
-                <Link href={'https://my.modagram.uz/'}>
-                <div> Войти </div>
+                <Link href={"https://my.modagram.uz/"}>
+                  <div> Войти </div>
                 </Link>
-                <Link href={'https://t.me/modagramuz_bot'}>
+                <Link href={"https://t.me/modagramuz_bot"}>
                   <button> ЗАКАЗАТЬ </button>
                 </Link>
               </div>
@@ -87,6 +87,17 @@ const Header = () => {
                       </>
                     );
 
+                  case "/moreReview":
+                    return (
+                      <>
+                        <h3>Узнайте больше о нас</h3>
+                        <p>Вы можете узнать больше о нас из поста ниже</p>
+                        <button className={cls.blueBtn}>
+                          Cвязаться с нами
+                        </button>
+                      </>
+                    );
+
                   default:
                     return (
                       <div className={cls.hero}>
@@ -97,9 +108,8 @@ const Header = () => {
                           обувь, гаджеты известных брендов и безопасно
                           отправлять вещи в Узбекистан.
                         </p>
-                        <Link href={'https://t.me/modagramuz_bot'}>
-                        
-                        <button className={cls.regularBTn}>ЗАКАЗАТЬ</button>
+                        <Link href={"https://t.me/modagramuz_bot"}>
+                          <button className={cls.regularBTn}>ЗАКАЗАТЬ</button>
                         </Link>
                       </div>
                     );

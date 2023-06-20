@@ -17,6 +17,9 @@
     margin-bottom: 20px;
 
     img {
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
       @media (max-width: 420px) {
         width: 120px;
         height: 120px;
@@ -72,6 +75,20 @@
   }
 }
 .wrapOtziv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .itemBtn{
+
+    button{
+
+      padding: 15px;
+      font-weight: 600;
+      border: none;
+      outline: none;
+      border-radius: 100px;
+    }
+  }
   .titleOtziv {
     background-image: url("../../public/Shape.svg");
     height: 140px;
