@@ -42,7 +42,7 @@ const Slider = () => {
           1024: { slidesPerView: 2, spaceBetween: 150 },
         }}
       >
-        {reviewData.map((item) => (
+        {reviewData.slice(0, 5).map((item) => (
           <SwiperSlide>
             <div className={cls.imagePart}>
               <div className={cls.firstImage}>
