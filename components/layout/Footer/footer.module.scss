@@ -42,6 +42,9 @@
         align-items: center;
         gap: 5px;
         padding: 30px 0 75px 0;
+        a{
+          z-index: 123123;
+        }
 
         @media (max-width: 500px) {
           padding-bottom: 35px;

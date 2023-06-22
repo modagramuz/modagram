@@ -3,6 +3,7 @@ import cls from "./faq.module.scss";
 import { PlusIcon } from "../svg";
 import faqData from "@/shared/faqData";
 import faqFilter from "@/shared/faqFilter";
+import Link from "next/link";
 
 export default function Faq() {
   const [roomNumber, setRoomNumber] = useState(1);
@@ -10,7 +11,6 @@ export default function Faq() {
   const [news, setNews] = useState(0);
 
   function handleRoomChange(roomNumber) {
-
     if (!faqData[roomNumber][sizeIndex]) {
       setRoomNumber(roomNumber);
       setSizeIndex(0);
@@ -23,12 +23,11 @@ export default function Faq() {
 
   console.log(roomNumber, "item");
 
-  useEffect(()=>{
-    if(news == 8){
-
+  useEffect(() => {
+    if (news == 8) {
       setRoomNumber(0);
     }
-  },[news])
+  }, [news]);
 
   const arr = {
     id: 673,
@@ -38,12 +37,12 @@ export default function Faq() {
       "Адрес пункта самовывоза указан в боте. Вы можете забрать свои заказы в часы работы магазина Telegram бот: @modagramuz_bot",
     title3: "Наш бот Telegram запущен",
     title4:
-      "Альхамдулиллах, теперь ответы будут приходить быстрее, ведь мы загрузили в боте много часто задаваемых вопросов. Например, привлекательно ли место? Что такое курс? Сколько стоит 100TL? И подобные вопросы.Наш Telegram-бот:modagramuz_bot",
+      "Алхамдулиллах, теперь ответы будут приходить быстрее, ведь мы загрузили в боте много часто задаваемых вопросов. Например, откуда можно забрать? Какой курс? Сколько стоит 100TL? И подобные вопросы. Наш Telegram-бот:",
     title5: "Кто оператор? Какое имя?",
     title6:
       "Наш оператор Абдулла. Если у вас есть какие-либо вопросы о Modagram, не стесняйтесь спрашивать.@modagramuz_bot",
   };
-console.log(roomNumber,"nu,ber")
+  console.log(roomNumber, "nu,ber");
   return (
     <>
       <div className="innerContainer">
@@ -98,7 +97,12 @@ console.log(roomNumber,"nu,ber")
                 <p>{arr.title1}</p>
                 <p>{arr.title2}</p>
                 <p>{arr.title3}</p>
-                <p>{arr.title4}</p>
+                <p>
+                  {arr.title4}{" "}
+                  <Link href={"https://t.me/modagramuz_bot"}>
+                    @modagramuz_bot
+                  </Link>
+                </p>
                 <p>{arr.title5}</p>
                 <p>{arr.title6}</p>
               </div>
