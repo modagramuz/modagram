@@ -32,7 +32,7 @@ const Sales = () => {
                 ювелирные изделия.
               </p>
 
-              <Link href="/magazine">
+              <Link href="/shops">
                 <button>
                   Популярные магазины <ArrowIcon />
                 </button>
