@@ -13,7 +13,7 @@ export const reviewData = [
       "Assalomu alekum oyoq kimi keldi sifatli va allo darajada qolimga oldim raxmat modagram okalaga ishilaga rivoj !!!",
     name: " Sunnatko ",
     date: "  23-01-23 ",
-    img: '/otziv/one.jpeg'
+    img: '/otziv/25.jpeg'
 
   },
   {

@@ -21,7 +21,7 @@ const Slider = () => {
         </div>
         <div className={cls.itemBtn}>
           <Link href={"/moreReview"}>
-            <button>Узнать больше</button>
+            <button>Все Отзывы (100+)</button>
           </Link>
         </div>
       </div>
