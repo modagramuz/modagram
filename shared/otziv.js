@@ -314,4 +314,320 @@ export const reviewData = [
     date: "23-12-21",
     img:'/otziv/32.jpg'
   },
+  {
+    id: 7,
+    title:"Ман якинда блэк фрайдэй да узимга Туфли заказ килувдим Hotic дан и свитер Polo дан. Заказ оволдим. Модаграм жудаям отпимал ишлиркан. Энди факат модаграмдан заказ киламан. Котта Рахмат ишилага омад.",
+    name: "Дониер",
+    date: "	15-12-21",
+    img:'/otziv/33.jpeg'
+  },
+  {
+    id: 7,
+    title:"Timberland демисезонные ботинки. Супер  сифати ва сервис. Доимий мижоздан. Ишларингизга барака тилайман.",
+    name: "	Шерзод Ахмедов",
+    date: "09-12-21",
+    img:'/otziv/34.jpg'
+  },
+  {
+    id: 7,
+    title:"	Все товары доставлены во время",
+    name: "	Saidakhmad",
+    date: "09-12-21",
+    img:'/otziv/35.PNG'
+  },
+  {
+    id: 7,
+    title:"Hamma tovarlarimi oldim. A’lo darajada va o’z vaqtida yetkazib berishdi. Raxmat!",
+    name: "	Shoxrux",
+    date: "04-12-21",
+    img:'/otziv/36.png'
+  },
+  {
+    id: 7,
+    title:"	Men oyoq kiyim zakaz berdim. Vaqtida olib kelib berishdi, narxlariyam boshqa dostavkachilarga qaraganda sezilarli arzon ekan. Omad ishlarga!",
+    name: "	Risqiddin",
+    date: "	22-11-21",
+    img:'/otziv/37.PNG'
+  },
+  {
+    id: 7,
+    title:" Отличный сервис! Уже больше полугода заказываю через них, вежливый сервис и доставка быстрая !",
+    name: "	Эльмира",
+    date: "	03-11-21",
+    img:'/otziv/38.jpg'
+  },
+  {
+    id: 7,
+    title:"Assalomu aleykum. Bir necha oydan beri bu sayt orqali kiyim-kechak xarid qilyapman. Narxlar hamyonbop. Qulay va ishonchli servis. Sayt faoliyatidan mamnunman. Rahmat!",
+    name: "	Sherzod",
+    date: "	01-11-21",
+    img:'/otziv/39.jpeg'
+  },
+  {
+    id: 7,
+    title:"“Assalamu Aleykum ishilani rivojini bersin Olloh Hayrli qisin shunaqa davom etila 1 yildan beri narsa ovomman hammasi zor vaqtida yaxshi kachestvada yetip kevotti ”",
+    name: "	Abdurahim",
+    date: "	27-10-21",
+    img:'/otziv/40.PNG'
+  },
+  {
+    id: 7,
+    title:"Почти 1 год работаю с Модаграм, очень все нравится! Приходит все во время и именно то что заказываю. Даже намного дешевле)) Молодцы ребята! Процветания Вам и развития!",
+    name: "	Альбина",
+    date: "	27-10-21",
+    img:'/otziv/41.jpg'
+  },
+  {
+    id: 7,
+    title:" Модаграм иловасидан 1-йилдан бери фойдаланиб келаман. Айтишим мумкин, уларда асосий этибор мижозларни рози килишга каратилган, хаммаси ишончли, тезкор, шаффоф, сифатли ва албатта нархлар жуда хамйонбоп. Хаммага Модаграм билан ишлашни таклиф этаман. Модаграм жамоасига Рахмат!!!",
+    name: "	Шавкатбек",
+    date: "	11-10-21",
+    img:'/otziv/42.jpg'
+  },
+  {
+    id: 7,
+    title:" Modagram иловасидан доимий, фойдаланиб келаман, энг мухими ишончли! Ишийларга омад тилаб коламан, Аллох кувват берсин сизларга!",
+    name: "	ZAHIRIDDIN",
+    date: "	30-09-21",
+    img:'/otziv/43.jpg'
+  },
+  {
+    id: 7,
+    title:" Raxmat katta iwonchni oqlagan modegram jamosi iwilaga omad ",
+    name: "		Aslliddin",
+    date: "	01-10-21",
+    img:'/otziv/44.png'
+  },
+  {
+    id: 7,
+    title:" Zakazlani ovoldm raxmat kattakon in shaa Alloh yana zakaz qilamiz, ishilaga rivoj",
+    name: "		Doston",
+    date: "	04-09-21",
+    img:'/otziv/45.jpg'
+  },
+  {
+    id: 7,
+    title:" Raxmat kattakon tovarim yetib keldi. Xizmatingizga gap yuq. Yana kup narsa zakaz qilmoqchiman..",
+    name: "		Abror",
+    date: "	23-08-21",
+    img:'/otziv/46.PNG'
+  },
+  {
+    id: 7,
+    title:" Servis va mahsulotlar sifati alo darajada. MODAGRAM jamosiga katta rahmat !",
+    name: "		Ulug'bek",
+    date: "	21-08-21",
+    img:'/otziv/47.jpg'
+  },
+  {
+    id: 7,
+    title:" Ассалому алайкум, жуда хам ажойиб стартап.  Товарларга гап йук. Омад! Всем рекомендую!",
+    name: "		Азизбек",
+    date: "	29-07-21",
+    img:'/otziv/48.jpg'
+  },
+  {
+    id: 7,
+    title:" Все качественные товар.  Удобная услуга. Спасибо большая вместе долго время работаем.",
+    name: "		Sohibjon",
+    date: "	26-07-21",
+    img:'/otziv/49.PNG'
+  },
+  {
+    id: 7,
+    title:"Assalomu alaykum. Modagram zo'r, xizmat ko'rsatish yuqori darajada, tez, arzon va qulay. Umid qilaman, hali mijozlarni juda ko'p vaqt xursand qilasizlar! ",
+    name: "		Zarnigor",
+    date: "	26-07-21",
+    img:'/otziv/50.PNG'
+  },
+  {
+    id: 7,
+    title:"Довольна очень быстро отвечают в телеграм, есть возможность отслеживать статус товара. Ещё очень удобно для онлайн магазинов. Но доставка не всегда за 10 дней) иногда дольше, ну примерно 2 недели ",
+    name: "		Madina",
+    date: "	26-07-21",
+    img:'/otziv/51.jpg'
+  },
+  {
+    id: 7,
+    title:"Спасибо огромное Модаграму я так долго искал эту штуку и ни как ни смог добраться к нему вы очень помогли теперь я знаю кому доверять в таких вещах! Просто Суппер!",
+    name: "	Отабек",
+    date: "27-10-21",
+    img:'/otziv/52.jpg'
+  },
+  {
+    id: 7,
+    title:"Ассалому алайкум Модаграм жамоасига уз миннатдорчилигимни билдираман,ажойиб нархлар ажойиб сифат ва заказлар етиб келиши жуда яхши,кутилган натижа хар доимгидек ало, рахмат силага коттокон аллох ишилани ривожини берсин.",
+    name: "		Даврон",
+    date: "	30-06-21",
+    img:'/otziv/53.png'
+  },
+  {
+    id: 7,
+    title:"Айтилган вахтда айтилган жойга етказиб беришди Сифат 100% оригинал",
+    name: "		Шахриёр",
+    date: "	30-06-21",
+    img:'/otziv/54.jpeg'
+  },
+  {
+    id: 7,
+    title:"Спасибо большое ?Заказ пришел быстро, без задержек. Самое главное пришел без брака, качество супер? надеюсь это не последний заказ?",
+    name: "		Dalila",
+    date: "	24-06-21",
+    img:'/otziv/55.jpg'
+  },
+  {
+    id: 7,
+    title:"Все очень здорово. я стал постоянным клиентом. всем рекомендую",
+    name: "		Никита",
+    date: "	19-06-21",
+    img:'/otziv/56.jpg'
+  },
+  {
+    id: 7,
+    title:"Assalomu alaykum, Modagram jamoasiga rahmat! Ajoyib platforma yaratishgan. Zakazlar o'z vaqtida va kutilgan sifatda keldi. Qolganlarga ham tavsiya qilaman!",
+    name: "		Azizbek",
+    date: "	08-06-21",
+    img:'/otziv/57.jpg'
+  },
+  {
+    id: 7,
+    title:"Хочу выразить огромную благодарность сервису МОДАГРАМ УЗ .работают оперативно , четко и без обмана.",
+    name: "		денис",
+    date: "	03-06-21",
+    img:'/otziv/58.jpg'
+  },
+  {
+    id: 7,
+    title:"Hammasi a'lo darajada. Servisga gap yo'q.",
+    name: "	Sardor",
+    date: "	05-06-21",
+    img:'/otziv/59.jpg'
+  },
+  {
+    id: 7,
+    title:"Tovarlar o'z vaqtida keldi. Sifati yaxshi.",
+    name: "	Sardor",
+    date: "	27-05-21",
+    img:'/otziv/60.jpg'
+  },
+  {
+    id: 7,
+    title:"Kottakon rahmat, hamma zakazlarimmi ovoldim",
+    name: "	Iroda5456",
+    date: "	27-05-21",
+    img:'/otziv/61.jpeg'
+  },
+  {
+    id: 7,
+    title:"Kottakon rahmat, hamma zakazlarimmi ovoldim",
+    name: "	Iroda5456",
+    date: "	27-05-21",
+    img:'/otziv/62.jpeg'
+  },
+  {
+    id: 7,
+    title:"Assalomu Aleykum, zakazlani qabul qilib oldim. Hammasi yaxshi keldi! Rahmat kottakon. Ishilaga rivoj!!",
+    name: "	Bunyod",
+    date: "	23-05-21",
+    img:'/otziv/63.jpeg'
+  },
+  {
+    id: 7,
+    title:"Assalomu aleykum Modagram hizmatidan birinchi martta foydalandim zakazim razmeri togri sifati a'lo darajada Katta Rahmat !",
+    name: "	Ismoilkhon",
+    date: "	27-05-21",
+    img:'/otziv/64.jpg'
+  },
+  {
+    id: 7,
+    title:"Все отлично! Быстрая доставка, отличный сервис )) Буду ещё заказывать",
+    name: "	Timur",
+    date: "	27-04-21",
+    img:'/otziv/65.PNG'
+  },
+  {
+    id: 7,
+    title:"Бу корхонадан 3- марта заказ беришим. Хаммаси зур. Гап йук. Бозордаги нархлардан архон ва сифатли брендовый кийимлар олдим. Ишилага омад. Уже уртогларим ва уйдагиларим заказ килишни бошлашди..",
+    name: "	Anvar",
+    date: "	28-03-21",
+    img:'/otziv/66.JPG'
+  },
+  {
+    id: 7,
+    title:"спасибо большое за быструю доставку! качество очень хорошая лучше чем я ожидала",
+    name: "	Хилола",
+    date: "	23-03-21",
+    img:'/otziv/67.jpg'
+  },
+  {
+    id: 7,
+    title:"Очень доволен и товаром и сервисом этой компании. Рекомендую!",
+    name: "	Ziyoviddin",
+    date: "	28-03-21 ",
+    img:'/otziv/68.JPG'
+  },
+  {
+    id: 7,
+    title:"Ассалому Алейкум! Модаграмдигилага катта рахмат. Заказимни эсон омон оволдим! Сифати жуда яхши экан!!! Ишилага ривож тилиман!!! ",
+    name: "	Bunyod",
+    date: "	06-03-21 ",
+    img:'/otziv/69.jpeg'
+  },
+  {
+    id: 7,
+    title:"Модаграм,летом будет год,как я нашла Вас и почти каждый месяц Вы радуете меня и мою семью ☺️!!! Доставка всегда без опозданий и задержек,заказы приходят в первоначальном виде - независимо от размеров - ювелирные ли это изделия или габаритные картины. В приложении легко и удобно работать, каталог сайтов представлен на любой выбор?! Работа персонала на высшем уровне, скорая обратная связь. Заказывали и одежду,и игрушки,и предметы интерьера,и товары для дома,и ювелирные изделия - всё на отлично! Так держать,Модаграм!! Процветания,благополучия и успехов в Вашей работе! Вы лучшие✊",
+    name: "	Динара",
+    date: "	05-03-21 ",
+    img:'/otziv/70.jpg'
+  },
+  {
+    id: 7,
+    title:"Спасибо большое МОДАГРАМ! заказы приходят во время, все как на картинке. Удачи Вам во всех делах. Бориларинга шукур!",
+    name: "	Альбина",
+    date: "	02-03-21 ",
+    img:'/otziv/71.png'
+  },
+  {
+    id: 7,
+    title:"Хороший персонал, доступные цены",
+    name: "	Khusrav",
+    date: "	28-02-21 ",
+    img:'/otziv/72.jpg'
+  },
+  {
+    id: 7,
+    title:"Хороший сервис,быстрая доставка,приятный персонал всегда на связи,отвечают на все вопросы. Спс всем работникам модаграм,успехов вам и процветания.",
+    name: "	Rustam",
+    date: "	27-02-21",
+    img:'/otziv/73.jpg'
+  },
+  {
+    id: 7,
+    title:"Спасибо большое за ваш труд. Вы всегда вежливые отвечаете. Все во время привозите. Желаю процветания в последующем.",
+    name: "	Нила",
+    date: "	28-02-21",
+    img:'/otziv/74.jpg'
+  },
+  {
+    id: 7,
+    title:"Отличный сервис, быстрая и надежная доставка. Постоянно пользуюсь услугами Модаграм, так как они никогда не подводят и всегда готовы помочь во всём. Очень демократичные цены, удобство собственного приложения и скорость доставки делают их незаменимыми!",
+    name: "	Фирдавс",
+    date: "	26-02-21 ",
+    img:'/otziv/75.jpg'
+  },
+  {
+    id: 7,
+    title:"High quality sevice and express delivery. Recommend anyone who want to purchase goods from abroad. Thanks to Modagram. Good luck!",
+    name: "	Khojiakbar K",
+    date: "	27-02-21",
+    img:'/otziv/76.jpg'
+  },
+  {
+    id: 7,
+    title:"В первый раз заказал через modogram. Очень доволен! Привезли, именно то, что заказывал, 8 вещей от разных брендов. Буду дальше заказывать)",
+    name: "	Shohruh",
+    date: "	25-02-21",
+    img:'/otziv/77.jpg'
+  },
 ];
+
