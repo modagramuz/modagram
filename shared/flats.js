@@ -60,13 +60,14 @@ export default {
           name: "bebetto.com",
           title: "",
           link: "https://bebetto.com.tr/tr/sayfa/anasayfa",
-          img: "https://cdn.e-bebek.com/y.ebebek/9973673459742.svg",
+         img: "https://bebetto.com.tr/assets_w/images/logo.png" 
         },
         {
           name: "ebebek.com",
           title: "",
           link: "https://www.e-bebek.com/",
-          img: "https://www.modasena.com/Data/EditorFiles/big-modasena-logo.png",
+          img: "https://cdn.e-bebek.com/y.ebebek/9973673459742.svg",
+
         },
         {
           name: "cimcimebebe.com",
@@ -98,6 +99,13 @@ export default {
             "Бренд Lescon широко известен во всем мире. Эта марка «одевает и обувает» многие спортивные клубы родной Турции и европейские профессиональные команды.",
           link: "https://www2.hm.com/tr_tr/index.html",
           img: "https://img-lescon.mncdn.com/images/frontend/logo-light.svg",
+        },
+        {
+          name: "decathlon.com.tr",
+          title:
+            "Декатлон был основан во Франции в 1976 году Мишелем Леклерк и его командой. Первоначальной идеей является: ответить на желания и потребности спортсменов, предложив в одном месте большое разнообразие спортивных товаров.",
+          link: "https://www.decathlon.com.tr/",
+          img: "/otziv/decanthon.png",
         },
       ],
     },
@@ -183,10 +191,10 @@ export default {
           title:
             "Bershka – это ещё один испанский бренд, принадлежащий корпорации Inditex Group. Bershka – молодёжная линия одежды, ориентированная по большей части на девушек и парней, которые еще не окончили институт. ",
           link: "https://www.bershka.com/es/",
-          img: "/bershka.svg",
+          img: "/otziv/bershka.png",
         },
         {
-          name: "bershka.com",
+          name: "pierrecardin.com",
           title:
             "Pierre Cardin (произносится Пьер Карден) — французский дом моды, основанный в 1950 году модельером П.Карденом, производитель готовой одежды, обуви, парфюмерии, постельного белья, фарфора и прочих предметов роскоши.",
           link: "https://www.pierrecardin.com.tr/",
@@ -291,7 +299,7 @@ export default {
           title:
             "С 2002 года D’S Damat предлагает качество, комфорт и дизайн по конкурентоспособным ценам, являясь лидером в области мужской одежды. D’S Damat стал одним из самых популярных брендов в мире, производя коллекции одежды по обширным и мировым стандартам, используя 100% отечественные ткани, современные технологии и дизайн, сочетающие инновации и комфорт.",
           link: "https://www.derimod.com.tr/",
-          img: "https://93dcf683.cdn.akinoncloud.com/static_omnishop/tween202/img/logo.svg",
+          img: "https://93dcf683.cdn.akinoncloud.com/static_omnishop/tween207_BETE-64942/img/logo.svg",
         },
         {
           name: "colins.com.tr",
@@ -316,13 +324,7 @@ export default {
           img: "https://www.lufian.com/Data/EditorFiles/22-23FW/300x55.png",
         },
 
-        {
-          name: "decathlon.com.tr",
-          title:
-            "Декатлон был основан во Франции в 1976 году Мишелем Леклерк и его командой. Первоначальной идеей является: ответить на желания и потребности спортсменов, предложив в одном месте большое разнообразие спортивных товаров.",
-          link: "https://www.decathlon.com.tr/",
-          img: "/123.svg",
-        },
+      
         {
           name: "hotic.com.tr",
           title:
@@ -452,7 +454,7 @@ export default {
           name: "collezione.com",
           title: "",
           link: "https://collezione.com/",
-          img: "",
+          img: "/otziv/collezione.webp",
         },
         {
           name: "deichmann.com",
@@ -493,6 +495,18 @@ export default {
           link: "https://www.kayra.com/",
           img: "https://cdn.kayra.com/UserFiles/System/kayra-logo.svg",
         },
+        {
+          name: "kahvedunyasi.com",
+          title: '',
+          link: "https://www.kahvedunyasi.com",
+          img: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/logo.svg'
+        },
+        {
+          name: "marksandspencer.com.tr",
+          title: '',
+          link: "https://www.marksandspencer.com",
+          img: 'https://static.marksandspencer.com/images/MAndSLogo-v2.svg?key=7654'
+        },
       ],
     },
   ],
@@ -503,7 +517,7 @@ export default {
           name: "trendyol.com",
           title: "Trendyol (Турция) – онлайн шопинг для креативных и стильных Идею объединить все самые модные товары для создания гармоничного образа и модной картинки в интерьере смогли реализовать разработчики онлайн площадки Trendyol. Сайт компании представлен в виде каталога одежды, аксессуаров, обуви,электроники – здесь есть все от нательного белья до средств личной гигиены и товаров для дома.",
           link: "https://www.trendyol.com/",
-          img: "https://cdn.kayra.com/UserFiles/System/kayra-logo.svg",
+          img: "https://cdn.dsmcdn.com/web/logo/ty-web.svg",
         },
         {
           name: "hepsiburada.com",
@@ -535,18 +549,7 @@ export default {
           link: "https://www.carrefoursa.com/",
           img: 'https://reimg-carrefour.mncdn.com/staticimage/carrefoursacom-logo.svg'
         },
-        {
-          name: "kahvedunyasi.com",
-          title: '',
-          link: "https://www.kahvedunyasi.com",
-          img: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/logo.svg'
-        },
-        {
-          name: "marksandspencer.com.tr",
-          title: '',
-          link: "https://www.marksandspencer.com",
-          img: 'https://cdn-aing.akinon.net/static_omnishop/mns611/assets/img/mns_london_logo.svg'
-        },
+      
       ],
     },
   ],

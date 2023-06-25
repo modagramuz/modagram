@@ -264,4 +264,54 @@ export const reviewData = [
     img:'/otziv/24.jpg'
   },
 
+  {
+    id: 7,
+    title:"Ishilaga omad. Xamma buyurtmala vaqtida kevotti",
+    name: "Farhod",
+    date: "31-12-21",
+    img:'/otziv/26.PNG'
+  },
+  {
+    id: 7,
+    title:"На сегодняшний день, я сделал 29 заказов (более 100 товаров) на сумму более 2000$ и абсолютно доволен сроками доставки, качеством и удобством сервиса. Продолжайте в том же духе )",
+    name: "Khusrav",
+    date: "25-12-21",
+    img:'/otziv/27.jpg'
+  },
+  {
+    id: 7,
+    title:"Жуда тез! МашаАллах 5 кунда келди. Сифати аъло. Яна буюртма киламиз. Рахмат.",
+    name: "Bekzod",
+    date: "23-12-21",
+    img:'/otziv/'
+  },
+  {
+    id: 7,
+    title:"Сервис хизмати аъло даражада",
+    name: "BEkzod",
+    date: "24-12-21",
+    img:'/otziv/28.jpg'
+  },
+
+  {
+    id: 7,
+    title:"Modagramdan 4-marta zakaz qabul qilishim. Narxlari asl narxda kelish vaqti ham tez va sifatli. Bizga sifatli buyumlar olishga yordam berganlari uchun katta rahmat.",
+    name: "Nodirbek",
+    date: "24-12-21",
+    img:'/otziv/29.jpg'
+  },
+  {
+    id: 7,
+    title:"Modagram jamoasiga minnatdorchilik bildiraman zakazim 8 kunda keldi. Ham arzon ham tez fursatda yetkazib berishdi bugundam boshlab boshqa sayt ili kanallar orqali zakaz qilmayman faqat Modagram. ",
+    name: "Sardor Maxmudov",
+    date: "23-12-21",
+    img:'/otziv/30.jpg'
+  },
+  {
+    id: 7,
+    title:"Uzuk zakas qilgan edim òz vaqtida olib kelib berishdi raxmat. Bundan tashqari boshqa narsala xam zakas qilgandim ulani xam òz vaqtida yetkazib berishgandi maxsulotlani sifati xam zòr ishilaga omad.",
+    name: "Dildora",
+    date: "23-12-21",
+    img:'/otziv/31.jpg'
+  },
 ];
