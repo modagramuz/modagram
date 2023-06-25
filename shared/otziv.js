@@ -309,9 +309,9 @@ export const reviewData = [
   },
   {
     id: 7,
-    title:"Uzuk zakas qilgan edim òz vaqtida olib kelib berishdi raxmat. Bundan tashqari boshqa narsala xam zakas qilgandim ulani xam òz vaqtida yetkazib berishgandi maxsulotlani sifati xam zòr ishilaga omad.",
-    name: "Dildora",
+    title:"Товар сифатига гап йук! Рахмат.",
+    name: "Шерзод",
     date: "23-12-21",
-    img:'/otziv/31.jpg'
+    img:'/otziv/32.jpg'
   },
 ];
