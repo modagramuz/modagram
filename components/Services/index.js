@@ -6,7 +6,25 @@ const Services = () => {
   return (
     <>
       <div className="innerContainer">
-        <h1 className={cls.h1}>Услуги доставки из Турции от Modagram.uz</h1>
+        <h1 className={cls.h1}>Как это работает - шаг за шагом</h1>
+
+        <div className="zz">
+          <p>1. Вы выбираете продукт с интернет магазинов Турции.</p>
+          <p>2. Отправляете ваш заказ через наш телеграм бот.</p>
+          <p>
+            3. Оплачиваете счет который наш оператор отправил вам и мы выкупаем
+            заказ.
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        <div className="zas">
+          <h3>Что дальше:</h3>
+        </div>
+        <br />
+        <br />
 
         <div className={cls.services}>
           {serviceData.map((item) => (
@@ -14,9 +32,7 @@ const Services = () => {
               <div className={cls.servicesName}>
                 <div className={cls.inServicesName}>{item.name}</div>
                 <div className={cls.inServicesTitle}>{item.title}</div>
-                <div className={cls.inServicesP}>
-                  <p>БЕСПЛАТНО</p>
-                </div>
+                
               </div>
               <div className={cls.servicesImg}>
                 <img src={item.img} />
