@@ -16,15 +16,10 @@ const Services = () => {
             заказ.
           </p>
         </div>
-        <br />
-        <br />
-        <br />
 
         <div className="zas">
           <h3>Что дальше:</h3>
         </div>
-        <br />
-        <br />
 
         <div className={cls.services}>
           {serviceData.map((item) => (
