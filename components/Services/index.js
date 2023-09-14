@@ -31,8 +31,7 @@ const Services = () => {
             <div key={item.id} className={cls.servicesDelivery}>
               <div className={cls.servicesName}>
                 <div className={cls.inServicesName}>{item.name}</div>
-                <div className={cls.inServicesTitle}>{item.title}</div>
-                
+                <div className={cls.inServicesTitle}><p dangerouslySetInnerHTML={{ __html: item.title }}/></div>
               </div>
               <div className={cls.servicesImg}>
                 <img src={item.img} />
