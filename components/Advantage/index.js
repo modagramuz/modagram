@@ -14,7 +14,10 @@ const Advantage = () => {
                   <p className={cls.titile}>{item.name}</p>
                   <img src={item.imgPath} />
                 </div>
-                <div className={cls.advantageTitle}>{item.title}</div>
+                <div
+                  className={cls.advantageTitle}
+                  dangerouslySetInnerHTML={{ __html: item.title }}
+                ></div>
               </div>
             </div>
           ))}
