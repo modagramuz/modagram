@@ -22,7 +22,7 @@ export const reviewData = [
       "Assalom Aleykum. Man shu odamla bilan ancha vaqt ishliman 2 - 3 yilni ichida ular xamma zakazlani oz vaqtida olib",
     name: " Khabibullo Urunbaev ",
     date: "    05-12-22 ",
-    img:''
+    img:'/otziv/khabibullo.jpg'
   },
   {
     id: 4,
@@ -37,9 +37,9 @@ export const reviewData = [
     id: 5,
     title:
       "Очень хороший сервис!!! Покупками и доставкой очень довольны, все доставили в лучшем виде! Спасибо",
-    name: "  Мадина  ",
-    date: "     02-12-22 ",
-    img:''
+    name: "Мадина",
+    date: "02-12-22 ",
+    img:'/otziv/madina.jpg'
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ export const reviewData = [
     title:"Сифати ТОП. Модаграм энг зур платформа заказ учун.",
     name: "Shohruzbek",
     date: "17-10-22",
-    img:'https://files.zohopublic.com/public?x-service=Zoho…TIyJTJDJTIyaXNBdHRhY2htZW50JTIyJTNBZmFsc2UlN0Q%3D'
+    img:'/otziv/shohruzbek.jpg'
   },
   {
     id: 9,
@@ -124,7 +124,7 @@ export const reviewData = [
     title:"Очень быстрая доставка по приемлемой цене",
     name: "Anvar",
     date: "	03-07-22",
-    img:'ds'
+    img:'/otziv/11.2.jpg'
   },
 
   {
@@ -153,28 +153,28 @@ export const reviewData = [
     title:"Assalomu alaykum hammaga. Bu uje 6 yoki 7-zakazim, hammaga tavsiya qilaman, narxlar arzon va sifati zo'r. Ishonchni oqlaydigan jamoa Modagram jomoasi!",
     name: "Shohruzbek",
     date: "	10-05-22",
-    img:'asd'
+    img:'/otziv/14.2.jpg'
   },
   {
     id: 22,
     title:"3 yildan beri modagramdan buyurtma qilaman. Ishonchni oqlashyapti. Yaxshi ishlashadi.",
     name: "Sardor Dushamov",
     date: "10-05-22",
-    img:''
+    img:'/otziv/14.3.jpg'
   },
   {
     id: 23,
     title:"Ba'zida zakaz yo'qolishi ba'zida kechikishi mumkin, lekin xavotir olmang xodimlar muammoni sizning manfaatingizga hal qilib berishadi. 3-marta buyurtma berishim, tavfsiya qilaman) ishingizga rivoj",
     name: "Zebo",
     date: "	10-05-22",
-    img:'123'
+    img:'/otziv/14.4.jpg'
   },
   {
     id: 24,
     title:"Hammasi zo’r. Hammaga Modagram orqali zakaz qilishni tavsiya qilaman. Hammasi a’lo darajada!",
     name: "	Shohjaxon",
     date: "10-05-22",
-    img:''
+    img:'/otziv/14.5.jpg'
   },
   {
     id: 25,
@@ -204,7 +204,7 @@ export const reviewData = [
     title:"Trendyoldan sumka zakaz qilgandim, juda mamnunman. Qisqa qilib aytganda Tez, hamyonbop, va sifatli servis. Baraka topila",
     name: 	"Abdulloh",
     date: "19-03-22",
-    img:''
+    img:'/otziv/18.2.jpg'
   },
 
   {
@@ -212,7 +212,7 @@ export const reviewData = [
     title:"	Trendyoldan komplekt nabor bilan kashelyok zakaz qiluvdim. Hammasi TOP, juda tez keldi. Va narxi ham unaqa qimmat emas, Modagram jamoasiga omad    ",
     name: "Shohruzbek",
     date: "	08-02-22",
-    img:''
+    img:'/otziv/18.3.jpg'
   },
   {
     id: 30,
@@ -283,7 +283,7 @@ export const reviewData = [
     title:"Жуда тез! МашаАллах 5 кунда келди. Сифати аъло. Яна буюртма киламиз. Рахмат.",
     name: "Bekzod",
     date: "23-12-21",
-    img:'/otziv/'
+    img:'/otziv/27.2.jpg'
   },
   {
     id: 40,
@@ -954,7 +954,7 @@ export const reviewData = [
   {
     id: 135,
     title:"Sifatli materiali yumshoq tovar keldi. Brendga gap yo.. Kotta raxmat",
-    name: "	Abdulloh",
+    name: "Abdulloh",
     date: "07-03-20",
     img:'/otziv/124.jpg'
   },
@@ -1034,6 +1034,20 @@ export const reviewData = [
     name: "	Alisher",
     date: "26-02-20",
     img:'/otziv/135.jpg'
+  },
+  {
+    id: 147,
+    title:"Har doimgidek judayam tez obkeberishadi, tez va sifatli tovalar faqat va faqat Modagramda, bu yil uje ikkinchi yil ekan bozor mallarga bormasdan, modagramdan zakaz qilyotganimga.",
+    name: "	Shohruzbek",
+    date: "08-08-23",
+    img:'/otziv/136.jpg'
+  },
+  {
+    id: 148,
+    title:"Ассалому алекум ,модограм жамоасига оз миннадорчилигими билдирмозчи эдим, биринчи марта модограм сайтидан атир заказ килдим, бощида оргинал келмайди деп ойладим,чунки нархлари жуда арзон эди, лекин келгандан кейн амин болдимки хаммаси оригинал ва хамйонбоплигига , заказим уйимгачам доставка килиб берищди, алохида рахмат . Модограм ищилага ривож.",
+    name: "Shirin",
+    date: "08-08-23",
+    img:'/otziv/137.jpg'
   },
 ];
 
