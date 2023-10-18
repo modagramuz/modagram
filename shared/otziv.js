@@ -173,7 +173,7 @@ export const reviewData = [
     id: 24,
     title:"Hammasi zo’r. Hammaga Modagram orqali zakaz qilishni tavsiya qilaman. Hammasi a’lo darajada!",
     name: "	Shohjaxon",
-    date: "10-05-22",
+    date: "10-05-22 ",
     img:'/otziv/14.5.jpg'
   },
   {
