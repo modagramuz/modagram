@@ -1,14 +1,14 @@
 export const reviewData = [
   {
    {
-    id: 147,
+    id: -1,
     title:"Har doimgidek judayam tez obkeberishadi, tez va sifatli tovalar faqat va faqat Modagramda, bu yil uje ikkinchi yil ekan bozor mallarga bormasdan, modagramdan zakaz qilyotganimga.",
     name: "	Shohruzbek",
     date: "08-08-23",
     img:'/otziv/136.jpg'
   },
   {
-    id: 148,
+    id: -2,
     title:"Ассалому алекум, модограм жамоасига оз миннадорчилигими билдирмозчи эдим, биринчи марта модограм сайтидан атир заказ килдим, бощида оргинал келмайди деп ойладим,чунки нархлари жуда арзон эди, лекин келгандан кейн амин болдимки хаммаси оригинал ва хамйонбоплигига , заказим уйимгачам доставка килиб берищди, алохида рахмат . Модограм ищилага ривож.",
     name: "Shirin",
     date: "08-08-23",
