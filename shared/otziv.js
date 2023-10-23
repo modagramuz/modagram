@@ -1,5 +1,19 @@
 export const reviewData = [
   {
+   {
+    id: -1,
+    title:"Har doimgidek judayam tez obkeberishadi, tez va sifatli tovalar faqat va faqat Modagramda, bu yil uje ikkinchi yil ekan bozor mallarga bormasdan, modagramdan zakaz qilyotganimga.",
+    name: "	Shohruzbek",
+    date: "08-08-23",
+    img:'/otziv/136.jpg'
+  },
+  {
+    id: -2,
+    title:"Ассалому алекум, модограм жамоасига оз миннадорчилигими билдирмозчи эдим, биринчи марта модограм сайтидан атир заказ килдим, бощида оргинал келмайди деп ойладим,чунки нархлари жуда арзон эди, лекин келгандан кейн амин болдимки хаммаси оригинал ва хамйонбоплигига , заказим уйимгачам доставка килиб берищди, алохида рахмат . Модограм ищилага ривож.",
+    name: "Shirin",
+    date: "08-08-23",
+    img:'/otziv/137.jpg'
+  },
     id: 1,
     title:
       "Har doim vaqtida ob kelib berishadi. Eng ishonchli jamoa. Anchadan beri faqat Modagramdan zakaz qilaman. Hammaga tavsiya qilaman. Yuqori sifat, hamyonbo’p narx. ",
@@ -1034,20 +1048,6 @@ export const reviewData = [
     name: "	Alisher",
     date: "26-02-20",
     img:'/otziv/135.jpg'
-  },
-  {
-    id: 147,
-    title:"Har doimgidek judayam tez obkeberishadi, tez va sifatli tovalar faqat va faqat Modagramda, bu yil uje ikkinchi yil ekan bozor mallarga bormasdan, modagramdan zakaz qilyotganimga.",
-    name: "	Shohruzbek",
-    date: "08-08-23",
-    img:'/otziv/136.jpg'
-  },
-  {
-    id: 148,
-    title:"Ассалому алекум, модограм жамоасига оз миннадорчилигими билдирмозчи эдим, биринчи марта модограм сайтидан атир заказ килдим, бощида оргинал келмайди деп ойладим,чунки нархлари жуда арзон эди, лекин келгандан кейн амин болдимки хаммаси оригинал ва хамйонбоплигига , заказим уйимгачам доставка килиб берищди, алохида рахмат . Модограм ищилага ривож.",
-    name: "Shirin",
-    date: "08-08-23",
-    img:'/otziv/137.jpg'
   },
 ];
 

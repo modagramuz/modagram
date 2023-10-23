@@ -543,12 +543,6 @@ export default {
           link: "https://www.gittigidiyor.com/",
           img: ''
         },
-        {
-          name: "carrefoursa.com",
-          title: '',
-          link: "https://www.carrefoursa.com/",
-          img: 'https://reimg-carrefour.mncdn.com/staticimage/carrefoursacom-logo.svg'
-        },
       
       ],
     },
