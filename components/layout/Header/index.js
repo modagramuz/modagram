@@ -8,7 +8,7 @@ import MobileMenu from "../MobileMenu";
 
 const Header = () => {
   const router = useRouter();
-  console.log(router, "router");
+  console.log(router.pathname, "router");
   return (
     <>
       <div className={cls.backgroundImage}>
@@ -22,17 +22,17 @@ const Header = () => {
               </div>
               <div className={cls.rightPart}>
                 {headerData.map((item) => (
-                  <div className={cls.naviRouter} key={item.id}>
+                  <div className={`${cls.naviRouter} ${router.pathname == item.navigaTe ? 'naviRouterCurrent' : ""}`} key={item.id}>
                     <Link href={item.navigaTe}>{item.name}</Link>
                   </div>
                 ))}
               </div>
               <div className={cls.login}>
                 <Link href={"https://my.modagram.uz/"}>
-                  <div> Войти </div>
+                  <div className={cls.loginLink}> Войти </div>
                 </Link>
                 <Link href={"https://t.me/modagramuz_bot"}>
-                  <button> ЗАКАЗАТЬ </button>
+                  <button className="button"> Заказать </button>
                 </Link>
               </div>
               <div className={cls.mobileMeny}>
@@ -103,10 +103,9 @@ const Header = () => {
                       <div className={cls.hero}>
                         <h3>Доставка товаров из Турции в Узбекистан</h3>
                         <p>
-                          Начните экономить до 80% на шопинге. Регистрируйтесь в
-                          Modagram, чтобы покупать со скидками в Турции одежду,
-                          обувь, гаджеты известных брендов и безопасно
-                          отправлять вещи в Узбекистан.
+                          Начните экономить до 80% на шопинге. Заказав у Modagram,
+                          вы сможете покупать со скидками в Турции одежду, обувь, гаджеты
+                          известных брендов и получить вещи в Узбекистане.
                         </p>
                         <Link href={"https://t.me/modagramuz_bot"}>
                           <button className={cls.regularBTn}>ЗАКАЗАТЬ</button>

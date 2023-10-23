@@ -8,12 +8,9 @@ const Rating = () => {
       <div className="innerContainer">
         <div className={cls.rating}>
           {ratingData.map((item) => (
-            <div className={cls.ratingType}>
-              <div key={item.id}>
-                <div className={cls.ratingName}> {item.name}
-                </div>
+            <div key={item.id} className={cls.ratingType}>
+                <div className={cls.ratingName}> {item.name}</div>
                 <div className={cls.ratingTitle}> {item.title}</div>
-              </div>
             </div>
           ))}
         </div>

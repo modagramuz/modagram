@@ -17,7 +17,6 @@ const Hero = () => {
             </p>
             <Link href={"/ @modagramuz_bot "}>
             <button className={cls.btnSignup}>Регистрация</button>
-
                 </Link>
           </div>
           <div>

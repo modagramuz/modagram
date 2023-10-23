@@ -11,7 +11,7 @@ const Sales = () => {
         <div className={cls.sales}>
           <div className={cls.leftSide}>
             {salesData.map((item) => (
-              <div className={cls.salesImg}>
+              <div key={item.id} className={cls.salesImg}>
                 <img src={item.imgPath} />
               </div>
             ))}

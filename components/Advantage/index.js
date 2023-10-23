@@ -8,8 +8,7 @@ const Advantage = () => {
       <div className="innerContainer">
         <div className={cls.advantage}>
           {advantageData.map((item) => (
-            <div className={cls.advantageSquare}>
-              <div key={item.id}>
+            <div key={item.id} className={cls.advantageSquare}>
                 <div className={cls.advantageName}>
                   <p className={cls.titile}>{item.name}</p>
                   <img src={item.imgPath} />
@@ -18,7 +17,6 @@ const Advantage = () => {
                   className={cls.advantageTitle}
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></div>
-              </div>
             </div>
           ))}
         </div>

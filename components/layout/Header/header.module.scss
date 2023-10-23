@@ -8,7 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
     @media (max-width: 1400px) {
       margin: 0 30px;
@@ -74,7 +75,6 @@
           font-size: 12px;
           line-height: 14px;
           text-transform: uppercase;
-
           color: #212121;
 
           @media (max-width: 880px) {
@@ -84,13 +84,11 @@
       }
     }
 
-    button {
-      display: flex;
-      padding: 13px 30px;
-      background: #b42126;
-      border-radius: 48px;
-      border: 1px;
-      color: white;
+    .loginLink {
+      color: #212121;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
     }
   }
 }
@@ -116,7 +114,9 @@
   padding-bottom: 3.5rem;
   min-height: 37.25rem;
   border-radius: 4rem;
-  margin: 0 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
 
   @media (max-width: 960px) {
     min-height: 30rem;

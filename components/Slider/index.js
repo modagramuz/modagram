@@ -43,7 +43,7 @@ const Slider = () => {
         }}
       >
         {reviewData.slice(0, 5).map((item) => (
-          <SwiperSlide>
+          <SwiperSlide key={item.id}>
             <div className={cls.imagePart}>
               <div className={cls.firstImage}>
                 <img src={item.img} />

@@ -16,12 +16,12 @@ export const headerData = [
     navigaTe: "/shops"
 
   },
-  {
-    id: 4,
-    name: "Заказ",
-    navigaTe: "/"
-
-  },
+  // {
+  //   id: 4,
+  //   name: "Заказ",
+  //   navigaTe: "/"
+  //
+  // },
   {
     id: 5,
     name: "F.A.Q",
