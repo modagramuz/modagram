@@ -1,7 +1,7 @@
 export default [
   {
     value: 1,
-    name: "Все для дома",
+    name: "Одежда, обувь, аксессуары",
   },
   {
     value: 2,
@@ -10,11 +10,10 @@ export default [
   {
     value: 3,
     name: "Спорт",
-
   },
   {
     value: 4,
-    name: "Одежда, обувь, аксессуары",
+    name: "Все для дома",
   },
   {
     value: 5,
