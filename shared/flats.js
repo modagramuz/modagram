@@ -116,12 +116,12 @@ export default {
         //   img: "/qiz.svg",
         // },
 
-        {
-          name: "e-tesettur.com.tr",
-          title: "",
-          link: "https://www.gizia.com/",
-          img: "https://www.e-tesettur.com.tr/Content/Frontend/images/logo-mor.svg",
-        },
+        // {
+        //   name: "e-tesettur.com.tr",
+        //   title: "",
+        //   link: "https://www.gizia.com/",
+        //   img: "https://www.e-tesettur.com.tr/Content/Frontend/images/logo-mor.svg",
+        // },
         // {
         //   name: "tugbavenn.com",
         //   title: "",
@@ -158,24 +158,24 @@ export default {
           link: "https://tr.benetton.com/",
           img: "/tesrt.svg",
         },
-        {
-          name: "penti.com",
-          title: "",
-          link: "https://www.penti.com/tr/",
-          img: "https://www.penti.com/medias/logo-new.svg?context=bWFzdGVyfGltYWdlc3wzMDMyfGltYWdlL3N2Zyt4bWx8YURaa0wyaGxZUzh4TnpVMU5qVTFNemMyTURjNU9DOXNiMmR2TFc1bGR5NXpkbWN8NjY2NDY4MTk0NjkwZjk1OGM5MzY3Nzg0ZGI1OWM2NjczYTk3YjVjNzQwZWYzNDdjMWJjOTc3M2JkZTRjNDBmNQ",
-        },
+        // {
+        //   name: "penti.com",
+        //   title: "",
+        //   link: "https://www.penti.com/tr/",
+        //   img: "https://www.penti.com/medias/logo-new.svg?context=bWFzdGVyfGltYWdlc3wzMDMyfGltYWdlL3N2Zyt4bWx8YURaa0wyaGxZUzh4TnpVMU5qVTFNemMyTURjNU9DOXNiMmR2TFc1bGR5NXpkbWN8NjY2NDY4MTk0NjkwZjk1OGM5MzY3Nzg0ZGI1OWM2NjczYTk3YjVjNzQwZWYzNDdjMWJjOTc3M2JkZTRjNDBmNQ",
+        // },
         // {
         //   name: "tekbir.com",
         //   title: "",
         //   link: "",
         //   img: "https://www.isgiyimi.com/image/catalog/adsz-tasarm.png",
         // },
-        {
-          name: "levis.com.tr",
-          title: "",
-          link: "https://www.levis.com.tr/",
-          img: "https://st-levis.mncdn.com/Content/img/levis150logo.png",
-        },
+        // {
+        //   name: "levis.com.tr",
+        //   title: "",
+        //   link: "https://www.levis.com.tr/",
+        //   img: "https://st-levis.mncdn.com/Content/img/levis150logo.png",
+        // },
         {
           name: "derimod.com.tr",
           title:
@@ -315,12 +315,12 @@ export default {
           link: "https://mudo.com.tr/",
           img: "https://8db24dc2.cdn.akinoncloud.com/static_omnishop/mudo63/img/logo.svg",
         },
-        {
-          name: "modasena.com",
-          title: "",
-          link: "https://modasena.com.tr/",
-          img: "https://www.modasena.com/Data/EditorFiles/big-modasena-logo.png",
-        },
+        // {
+        //   name: "modasena.com",
+        //   title: "",
+        //   link: "https://modasena.com.tr/",
+        //   img: "https://www.modasena.com/Data/EditorFiles/big-modasena-logo.png",
+        // },
         // {
         //   name: "asilmoda.com",
         //   title: "",
@@ -371,12 +371,12 @@ export default {
           link: "https://www.lacoste.com.tr/",
           img: "https://img.hatemoglu.com/Data/EditorFiles/Devux/image/logo.svg",
         },
-        {
-          name: "loft.com.tr",
-          title: "",
-          link: "https://www.loft.com.tr/tr-TR",
-          img: "https://cdn-loft-tr.mncdn.com/Themes/LoftBranch/Content/images/logo.png?v=1.0.1.19",
-        },
+        // {
+        //   name: "loft.com.tr",
+        //   title: "",
+        //   link: "https://www.loft.com.tr/tr-TR",
+        //   img: "https://cdn-loft-tr.mncdn.com/Themes/LoftBranch/Content/images/logo.png?v=1.0.1.19",
+        // },
 
         // {
         //   name: "kayra.com",
